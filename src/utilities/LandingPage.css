@@ -1,0 +1,28 @@
+.landing-page-body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2rem;
+    flex-grow: 1;
+    gap: 1rem;
+} 
+
+
+.landing-page-note-cards-container{
+    width: 50%;
+    display: flex; 
+    flex-direction: column;
+    gap: 1.5rem;
+    margin: 2rem;
+} 
+
+@media(max-width: 520px){
+    .landing-page-note-cards-container{
+        width: 100%;
+    }
+    .landing-page-body{
+        margin: 1rem;
+    }
+}
+
+

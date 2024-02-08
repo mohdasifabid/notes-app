@@ -1,0 +1,2 @@
+export const LOGIN_STATUS = "LOGIN_STATUS";
+export const SIGNUP_STATUS = "SIGNUP_STATUS";

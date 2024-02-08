@@ -1,0 +1,47 @@
+.note-card-container{
+    position: relative;
+    border: 2px solid var(--secondary-color);
+    width: 60%;
+}
+.note-card-container:hover{
+    box-shadow: 1px 1px 1px 1px var(--secondary-color);
+}
+.note-card-items{
+    padding: 0 1rem;
+}
+.note-card-icons{
+    color: var(--primary-color);
+    padding: 0 1rem;
+    cursor: pointer;
+}
+.note-card-delete-icon{
+    position: absolute;
+
+}
+
+.note-card-inputs-container {
+    display: flex;
+    flex-direction: column;
+    margin: 1rem;
+    gap: 1rem;
+}
+.note-card-inputs-container input{
+    border: none;
+    outline: none;
+}
+
+.note-card-bottom{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 1rem;
+}
+.bottom-right-side-color-input{
+    margin-right: 1rem;
+}
+
+@media(max-width: 620px){
+    .note-card-container{
+        width: 100%;
+    }
+}

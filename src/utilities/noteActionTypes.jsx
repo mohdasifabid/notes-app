@@ -1,0 +1,6 @@
+export const GET_NOTES = "GET_NOTES";
+export const ARCHIVED_NOTES = "ARCHIVED_NOTES";
+export const SEARCHED_NOTE = "SEARCHED_NOTE";
+export const GET_TRASH = "GET_TRASH";
+export const PINNED_NOTES = "PINNED_NOTES";
+export const NEED_SEARCH_INPUT_STATUS = "NEED_SEARCH_INPUT_STATUS";
